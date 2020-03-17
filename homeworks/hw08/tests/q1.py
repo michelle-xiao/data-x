@@ -1,7 +1,7 @@
-test = {   'name': 'q2d',
+test = {   'name': 'q1',
     'points': 1,
-    'suites': [   {   'cases': [   {   'code': '>>> len(list(df.index)) >= 5\n'
-                                               'True',
+    'suites': [   {   'cases': [   {   'code': ">>> df.count(axis=0)['alcohol']==178\n"
+  										'True',
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,

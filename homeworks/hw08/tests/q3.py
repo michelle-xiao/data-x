@@ -1,7 +1,7 @@
-test = {   'name': 'q2d',
+test = {   'name': 'q3',
     'points': 1,
-    'suites': [   {   'cases': [   {   'code': '>>> len(list(df.index)) >= 5\n'
-                                               'True',
+    'suites': [   {   'cases': [   {   'code': ">>> abs(score - 0.8888888888888888) < .01\n"
+  										'True',
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,
